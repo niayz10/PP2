@@ -19,7 +19,7 @@ namespace Task03
         {
             foreach(FileInfo f in Dir.GetFiles())// Cycle for Files
             {
-                Spaces(level + 1);// Call the function "Space" with level + 1 To separate by space our files
+                Spaces(level + 1);// Call the function "Spaces" with level + 1 To separate by space our files
                 Console.WriteLine(f.Name);// Show the Name of each file from the given directory
             }
             foreach(DirectoryInfo d in Dir.GetDirectories()) // Cycle for Directories
