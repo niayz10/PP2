@@ -8,9 +8,9 @@ namespace Task03
 {
     class Program
     {
-        public static void Spaces(int level)// The function that show Spaces.
+        public static void Spaces(int level)// The function that show Spaces
         {
-            for(int k = 0; k < level; k++)// Cycle for showing .
+            for(int k = 0; k < level; k++)// Cycle for showing
             {
                 Console.Write("      ");// Show Spaces
             }
