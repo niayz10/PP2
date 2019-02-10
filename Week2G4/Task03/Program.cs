@@ -8,11 +8,11 @@ namespace Task03
 {
     class Program
     {
-        public static void Spaces(int level)// The function that show Spaces
+        public static void Spaces(int level)// The function that show Spaces.
         {
-            for(int k = 0; k < level; k++)// Cycle for showing Spaces
+            for(int k = 0; k < level; k++)// Cycle for showing .
             {
-                Console.Write("      ");// Show Spaces
+                Console.Write("      ");// Show Spaces.
             }
         }
         public static void Work(DirectoryInfo Dir,int level)
