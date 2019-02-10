@@ -12,7 +12,7 @@ namespace Task03
         {
             for(int k = 0; k < level; k++)// Cycle for showing .
             {
-                Console.Write("      ");// Show Spaces.
+                Console.Write("      ");// Show Spaces
             }
         }
         public static void Work(DirectoryInfo Dir,int level)
