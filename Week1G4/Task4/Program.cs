@@ -18,7 +18,7 @@ namespace Task4
                 {
                     if (i >= j)  // Condition which works if i more or equal j
                     {
-                        twoarray[i, j] = "[*]"; // Write [*] into 2Darray                    }
+                        twoarray[i, j] = "[*]"; // Write [*] into 2Darray                    
                     }
                 }
             }
