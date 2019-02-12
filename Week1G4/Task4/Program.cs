@@ -16,7 +16,7 @@ namespace Task4
             {
                 for (int j = 0; j < b; j++)
                 {
-                    if (i >= j)  // Condition which works if i more or equal j
+                    if (i >= j)  // Condition which works if i more or equal j.
                     {
                         twoarray[i, j] = "[*]"; // Write [*] into 2Darray                    
                     }
