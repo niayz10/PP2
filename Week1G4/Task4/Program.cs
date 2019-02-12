@@ -11,7 +11,7 @@ namespace Task4
         static void Main(string[] args)
         {
             int b = int.Parse(Console.ReadLine()); // Created the variable b and ask user write it.
-            string[,] twoarray = new string[b, b]; // Created 2Darray with dimensions b*b.
+            string[,] twoarray = new string[b, b]; // Created 2Darray with dimensions b*b
             for (int i = 0; i < b; i++)
             {
                 for (int j = 0; j < b; j++)
